@@ -29,6 +29,18 @@ const FormSchema = new mongoose.Schema({
     type: String,
     maxlength: [300, "アレルギー等については300文字以内で入力してください"],
   },
+  country: {
+    type: String,
+  },
+  drivingMusic: {
+    type: String,
+  },
+  tobeinto: {
+    type: String,
+  },
+  thingstowant: {
+    type: String,
+  },
 });
 
 module.exports = mongoose.model("Form", FormSchema);
