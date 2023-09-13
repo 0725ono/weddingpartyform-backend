@@ -11,7 +11,7 @@ app.use(express.json());
 const cors = require("cors");
 app.use(
   cors({
-    origin: "https://weddingpartyform-frontend-ka1ud7xwe-0725ono.vercel.app",
+    origin: "https://weddingpartyform-frontend-d0o194am7-0725ono.vercel.app",
   })
 );
 
